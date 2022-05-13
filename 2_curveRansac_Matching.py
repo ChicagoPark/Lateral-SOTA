@@ -233,11 +233,6 @@ leftY_RansacData = np.array(leftYYY).reshape(-1,1)
 rightX_RansacData = np.array(rightXXX).reshape(-1,1)
 rightY_RansacData = np.array(rightYYY).reshape(-1,1)
 
-#leftXXX.insert(0, leftXXX[0]);leftXXX.insert(0,leftXXX[0]);leftXXX.insert(0,leftXXX[0]); leftYYY.insert(0,leftYYY[0]+0.01);leftYYY.insert(0, leftYYY[0]+0.015);leftYYY.insert(0,leftYYY[0]-0.001)
-#rightXXX.insert(0, rightXXX[0]);rightXXX.insert(0,rightXXX[0]);rightXXX.insert(0,rightXXX[0]); rightYYY.insert(0,rightYYY[0]);rightYYY.insert(0, rightYYY[0]);rightYYY.insert(0,rightYYY[0]); rightXXX.insert(0, rightXXX[0]);rightXXX.insert(0,rightXXX[0]);rightXXX.insert(0,rightXXX[0]); rightYYY.insert(0,rightYYY[0]);rightYYY.insert(0, rightYYY[0]);rightYYY.insert(0,rightYYY[0]);rightXXX.insert(0, rightXXX[0]);rightXXX.insert(0,rightXXX[0]);rightXXX.insert(0,rightXXX[0]); rightYYY.insert(0,rightYYY[0]);rightYYY.insert(0, rightYYY[0]);rightYYY.insert(0,rightYYY[0]); rightXXX.insert(0, rightXXX[0]);rightXXX.insert(0,rightXXX[0]);rightXXX.insert(0,rightXXX[0]); rightYYY.insert(0,rightYYY[0]);rightYYY.insert(0, rightYYY[0]);rightYYY.insert(0,rightYYY[0])
-#leftXXX.append(leftXXX[0]);leftXXX.append(leftXXX[0]);leftXXX.append(leftXXX[0]); leftYYY.append(leftYYY[0]+0.01);leftYYY.append(leftYYY[0]+0.015);leftYYY.append(leftYYY[0]-0.001)
-
-
 # Ransac data preprocessing
 test_leftX = np.array(leftXXX)
 test_leftY = np.array(leftYYY)
